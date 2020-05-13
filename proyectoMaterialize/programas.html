@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pagina con Materialize </title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src='js/jquery.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/misfunciones.js'></script>
+</head>
+
+<body>
+    <!-- Barra de Navegaci?n -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Ingenieria</a></li>
+        <li><a href="#!">Artes</a></li>
+        <li><a href="#!">Administraci?n</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Home</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="general.html">General</a></li>
+                <li><a href="programas.html">Programas Academicos</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Facultades<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a href="#sistemas">Ingenieria de Sistemas</a></li>
+                    <li class="tab col s3"><a class="active" href="#civil">Ingenieria Civil</a></li>
+                    <li class="tab col s3 "><a href="#electronica">Ingenieria Electronica</a></li>
+                    <li class="tab col s3"><a href="#mercadeo">Mercadeo </a></li>
+                </ul>
+            </div>
+            <div id="sistemas" class="col s12">
+                Ingenieria de Sistemas
+                <p>
+                    Sobre el Programa de Ingenier?a de Sistemas El Programa de Ingenier?a de Sistemas de la Universidad de Nari?o se caracteriza por cimentar su cuerpo de conocimiento en manifiestos internacionales propuestos por la Asociaci?n de Sistemas Inform?ticos ?
+                    ACM, la sociedad computacional del Instituto de Ingenieros El?ctricos y Electr?nicos- IEEE-CS, as? como las propuestas nacionales particularmente de la Asociaci?n Colombiana de Facultades de Ingenier?a ? ACOFI, en ese sentido la organizaci?n
+                    de su estructura curricular se enmarca bajo criterios nacionales e internacionales que orientan la Educaci?n Superior en la disciplina. Esta caracter?stica ha sido motivada por criterios de movilidad dentro de ambientes acad?micos
+                    globalizados.
+                </p>
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Mas informacion</a>
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Sistemas</h4>
+                        <p>Registro Alta Calidad Resoluci?n No. 6797, 10 Semestres ? 275 ? Presencial</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
+                    </div>
+                </div>
+            </div>
+            <div id="civil" class="col s12">
+                Ingenieria Civil
+            </div>
+            <div id="electronica" class="col s12">
+                Ingenieria Electronica
+            </div>
+            <div id="mercadeo" class="col s12">
+                Mercadeo
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

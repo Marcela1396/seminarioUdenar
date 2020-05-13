@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pagina con Materialize </title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons " rel="stylesheet ">
+
+    <script src='js/jquery.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/misfunciones.js'></script>
+</head>
+
+<body>
+    <!-- Barra de Navegaci?n -->
+    <ul id="dropdown1 " class="dropdown-content ">
+        <li><a href="#! ">Ingenieria</a></li>
+        <li><a href="#! ">Artes</a></li>
+        <li><a href="#! ">Administraci?n</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper ">
+            <a href="index.html " class="brand-logo ">Home</a>
+            <ul class="right hide-on-med-and-down ">
+                <li><a href="general.html ">General</a></li>
+                <li><a href="programas.html ">Programas Academicos</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger " href="#! " data-target="dropdown1 ">Facultades<i class="material-icons right ">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="collapsible ">
+        <li>
+            <div class="collapsible-header "><i class="material-icons ">filter_drama</i>Mision</div>
+            <div class="collapsible-body ">
+                <span>
+                   La Universidad de Narino, desde su autonomia y concepcion democratica y en convivencia con la region sur de Colombia, forma seres Humanos, ciudadanos y profesionales en las diferentes areas del saber y del conocimiento con fundamentos eticos y espiritu critico para el desarrollo alternativo en el acontecimiento mundo
+                    <br><br>
+                <img src="img/2.jpg " width="1200 ">
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header "><i class="material-icons ">place</i>Vision</div>
+            <div class="collapsible-body ">
+                <span>La Universidad de Narino, entendida como un acontecimiento en la cultura, es reconocida por su contribucion, desde la creacion de valores humanos, a la paz, la convivencia, la justicia social y a la formacion academica e investigativa, comprometida con el desarrollo regional en la dimension intercultural.
+                <br><br>
+                <img src="img/3.jpg " width="1200 ">
+                </span>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header "><i class="material-icons ">whatshot</i>Valores Institucionales</div>
+            <div class="collapsible-body ">
+                <span>
+                    Respeto, Tolencia, Amor, Servicio
+                <br><br>
+                <img src="img/7.jpg " width="1200 ">
+                </span>
+            </div>
+        </li>
+    </ul>
+
+</body>
+
+</html>
